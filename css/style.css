@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400&family=Playfair+Display:ital@1&family=Work+Sans:wght@200;400&display=swap');
+
+* { /*Ao colocar o *, o codigo entende como todo o conteudo*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body {
+    height: 100vh;
+    background: linear-gradient(120deg, #1399F2, #14DCFC);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 7px;
+    box-shadow: 0px 8px 10px 8px rgba(0,0,0,.5);
+}
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    width: 550px;
+    background: rgba(5,5,5,0.9);
+    border-radius: 7px;
+    box-shadow: 0px 8px 10px rgba(0,0,0,.5);
+    color: whitesmoke;
+    border: 7px;
+    border-radius: 10px;
+    letter-spacing: 3px;
+}
+.relogio div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    background: rgba(5,5,5,0.9);
+    box-shadow: 5px 5px 15px rgba(0,0,0, 0.7);
+    border: 7px;
+    border-radius: 10px;
+    letter-spacing: 3px;
+
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+.relogio span.tempo {
+    font-size: 10px;
+}
+.titulo:hover {
+    -webkit-transform: translateY(-8px);
+    -moz-transform: translateY(-8px);
+    -ms-transform: translateY(-8px);
+    -o-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+.titulo {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.relogio:hover {
+    -webkit-transform: translateY(-8px);
+    -moz-transform: translateY(-8px);
+    -ms-transform: translateY(-8px);
+    -o-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+.relogio {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+}
